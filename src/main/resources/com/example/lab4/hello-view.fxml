@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<SplitPane dividerPositions="0.4818440164193242" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="635.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.lab4.HelloController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <TreeView fx:id="treeView" prefHeight="422.0" prefWidth="302.0" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <Button fx:id="addDict" layoutX="20.0" layoutY="26.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="110.0" text="Добавить папку" />
+            <Button fx:id="createDict" layoutX="199.0" layoutY="26.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="110.0" text="Создать папку" />
+            <ChoiceBox fx:id="changeDictBox" layoutX="19.0" layoutY="170.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="rightBox" layoutX="19.0" layoutY="212.0" prefWidth="150.0" />
+            <Button fx:id="change" layoutX="203.0" layoutY="183.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="110.0" text="Изменить право" />
+            <ChoiceBox fx:id="fromDictBox" layoutX="16.0" layoutY="283.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="toDictBox" layoutX="16.0" layoutY="343.0" prefWidth="150.0" />
+            <Button fx:id="copy" layoutX="201.0" layoutY="309.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="110.0" text="Копировать" />
+            <Button fx:id="deleteDict" layoutX="199.0" layoutY="103.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="110.0" text="Удалить папку" />
+            <ChoiceBox fx:id="deleteDictBox" layoutX="19.0" layoutY="107.0" prefWidth="150.0" />
+            <Label layoutX="20.0" layoutY="257.0" prefHeight="18.0" prefWidth="48.0" text="Откуда" />
+            <Label layoutX="20.0" layoutY="317.0" prefHeight="18.0" prefWidth="48.0" text="Куда" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
